@@ -15,7 +15,7 @@ body {
     display: flex;
     background-color: #272030;
     color: #fff;
-    height: 100vh;
+    height: 850px;
     
 }
 
@@ -88,9 +88,8 @@ body {
 .info-perfil a {
     display: flex;
     color: black;
-    background-color: aquamarine;
     font-size: 15px;
-             
+    margin-top: 5px;
 }
 
 .info-perfil h5 {
