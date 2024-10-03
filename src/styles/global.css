@@ -1,0 +1,21 @@
+* {
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* root - variavel de estilo */
+:root {
+    --bg--color: #000000;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-gray: #C9C9C9;
+    --color-purple: #993399;
+    --color-barra: #272030;
+    --font-large: 64px;
+
+
+}
+
