@@ -4,66 +4,254 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/global.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./styles/style.css">
-   
-
     <title>Portfólio Dev/Social Media</title>
 
 </head>
+
 <body>
-    <div class="container">
-        
-        <nav class="sidebar" id="navbar">
-           
-            <ul>
-                <div class="content-info">
-                    <img src="./assets/images/logo-company-2.0.png" 
-                    alt="logo da company">
+    <header>
+            <img src="/src/assets/images/logo-company-2.0.png" alt="">
+
+        <div class="nav">
+            <a href="#home">Home</a>
+            <a href="#services">Serviços</a>
+            <a href="#certifications">Certificações</a>
+            <a href="#contacts">Contatos</a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá Devs,</h3>
+            <h1>Rafaela Costa aqui.</h1>
+            <h3>Front-End <span>Developer</span> and <span>Social-Media</span></h3>
+
+            <p>
+                A 2R's Assessoria e Consultoria de Marketing, 
+                fundada em 2024, é especializada em impulsionar o 
+                crescimento de empresas por meio de estratégias eficazes de marketing digital. 
+                Oferecemos serviços de social media, tráfego pago e desenvolvimento de sites, 
+                focando em resultados tangíveis e no aumento da visibilidade online. Nossa equipe 
+                de especialistas está comprometida em transformar desafios em oportunidades para 
+                nossos clientes. Junte-se a nós e eleve sua marca ao próximo nível!
+            </p>
+
+            <div class="social-media">
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-instagram' ></i></a>
+                <a href=""><i class='bx bxl-linkedin' ></i></a>
+                <a href=""><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div>
+                <a href="" class="btn">Download CV</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="/src/assets/images/foto-pessoal.png" alt="Foto da Ceo da empresa">
+        </div>
+
+
+    </section>
+
+    <section class="services" id="services">
+        <h2>Nossos <span>Serviços</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Front-End</h3>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nulla laudantium amet dolores, fuga, mollitia, quibusdam 
+                    nostrum vel et dolorem quis voluptatibus. Ipsam doloremque at, 
+                    aliquid maxime iusto minima natus cupiditate?
+                </p>
+
+                <a href="" class="btn">Saiba Mais</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-meta'></i>
+                <h3>Social-Media</h3>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nulla laudantium amet dolores, fuga, mollitia, quibusdam 
+                    nostrum vel et dolorem quis voluptatibus. Ipsam doloremque at, 
+                    aliquid maxime iusto minima natus cupiditate?
+                </p>
+
+                <a href="" class="btn">Saiba Mais</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-dollar-circle'></i>
+                <h3>Tráfego-Pago</h3>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nulla laudantium amet dolores, fuga, mollitia, quibusdam 
+                    nostrum vel et dolorem quis voluptatibus. Ipsam doloremque at, 
+                    aliquid maxime iusto minima natus cupiditate?
+                </p>
+
+                <a href="" class="btn">Saiba Mais</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="certifications" id="certifications">
+        <h2>Ultimos <span>Certificados</span></h2>
+
+        <div class="certificacoes-container">
+
+            <div class="certificacoes-box">
+                <img src="/src/assets/images/certificado-storyteling.jpg" 
+                alt="Certificado de Storytelling">
+
+                <div class="certificacoes-layer">
+                    <h4>Storytelling</h4>
+
+                    <p>
+                        Criação de narrativas envolventes que capturam a atenção do público. 
+                        Isso aumenta o engajamento e a lealdade à marca, diferenciando a comunicação 
+                        em um mercado saturado. Em resumo, aprimora estratégias de marketing e resulta 
+                        em melhores resultados. 
+                    </p>
+
+                    <a href=""><i class='bx bx-link-external'></i></a>
                 </div>
 
-                <li><a href="" id="Home-link">> Home <</a></li>
-                <li><a href="" id="feed-link">> Feed <</a></li>
-                <li><a href="" id="formacoes-link">> Formações <</a></li>
-                <li><a href="" id="servicosLink">> Serviços <</a></li>
-                <li><a href="" id="contatos-link">> Contatos <</a></li>
-               
-            </ul>
-        </nav>
-
-        <main class="content" id="content">
-            
-                <img src="./assets/images/foto-dev.jpg"
-                          alt="Foto de perfil">
-        
-        <ul>
-            <div class="info-seguidores">
-                <a>10 publicações</a>
-                <a>6 cases</a>
-                <a>8 Repositórios</a>
-
-            </div>
-            
-            <Div class="info-perfil">
-                <h3> Rafaela Costa </h3>
-                <a href="">@rafaela.mendez_mercadologa</a>
-                <h5><p>♉️13/05</p>
-                    <p>📌SP</p>
-                    <p>🎯Markeeter | Social Media | Dev </p>
-                    <p>“No mundo do MKT digital, visão sem estratégia é ilusão “</p></h5>
-            </Div>
-
-                
             </div>
 
-            </ul>
+            <div class="certificacoes-box">
+                <img src="/src/assets/images/certificado-negociação.jpg" 
+                alt="Certificado de negociação">
 
+                <div class="certificacoes-layer">
+                    <h4>Negociação</h4>
 
-        </main>
+                    <p>
+                        Aprimorando habilidades estratégicas e técnicas de persuasão. 
+                        Com essa certificação, profissionais aprendem a conduzir negociações de forma 
+                        eficaz, aumentando as taxas de fechamento e melhorando relacionamentos com clientes.
+                    </p>
 
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
 
-    </div>
+            </div>
 
-    
+            <div class="certificacoes-box">
+                <img src="/src/assets/images/diploma-facul.jpg" 
+                alt="Diploma Faculdade">
 
+                <div class="certificacoes-layer">
+                    <h4>Marketing digital</h4>
+
+                    <p>
+                        Me tornei especialista em otimizar campanhas, 
+                        entender melhor o comportamento do consumidor e acompanhar as tendências do mercado. 
+                        Isso resulta em melhores resultados e maior competitividade no setor.
+                    </p>
+
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+
+            </div>
+
+            <div class="certificacoes-box">
+                <img src="/src/assets/images/certificado-gestao.png" 
+                alt="Certificado gestão e planejamento de mídia">
+
+                <div class="certificacoes-layer">
+                    <h4>Gestão e planejamento de mídia</h4>
+
+                    <p>
+                        Com esse conhecimento, é possível otimizar campanhas, maximizar o 
+                        retorno sobre investimento e entender melhor o desempenho das mídias. 
+                        Isso resulta em uma comunicação mais eficiente e impactante com o público-alvo.
+                    </p>
+
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+
+            </div>
+
+            <div class="certificacoes-box">
+                <img src="/src/assets/images/certificado-direito.png" 
+                alt="Certificado Tecnologia, direito digital e propriedade intelectual">
+
+                <div class="certificacoes-layer">
+                    <h4>Tecnologia, direito digital e propriedade intelectual </h4>
+
+                    <p>
+                        Essa formação ajuda a proteger ativos intelectuais, 
+                        garantir conformidade legal e mitigar riscos associados 
+                        ao uso da tecnologia. Assim, contribui para uma atuação mais ética 
+                        e segura no mercado digital.
+                    </p>
+
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+
+            </div>
+
+            <div class="certificacoes-box">
+                <img src="/src/assets/images/certificado-comunications.png" 
+                alt="Certificado Comunicação em negócios e mídias sociais">
+
+                <div class="certificacoes-layer">
+                    <h4>Comunicação em negócios e mídias sociais</h4>
+
+                    <p>
+                        Proporciona conhecimentos sobre estratégias eficazes de comunicação, 
+                        construção de marca e gestão de crises nas redes sociais. Com essa 
+                        certificação, é possível aumentar a visibilidade da empresa e fortalecer 
+                        relacionamentos com clientes.
+                    </p>
+
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <h2>Contacte-<span>Me!</span></h2>
+
+        <!-- para onde vai mandar -->
+        <form action="">
+            <div class="input-box">
+                <input type="text" placeholder="Nome Completo">
+                <input type="email" placeholder="E-mail">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Número de Telefone">
+                <input type="text" placeholder="Assunto">
+            </div>
+
+            <textarea cols="30" rows="8" placeholder="Escreva uma mensagem..."></textarea>
+
+            <a href="" class="btn"> Enviar Cadastro</a>
+        </form> 
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 by &lt;/Rafaela Costa&gt;<div class=""></div></p>
+    </footer>
+
+  
 </body>
+<script src="/src/script.js"></script>
 </html>

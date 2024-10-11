@@ -1,21 +1,33 @@
 * {
-    border: none;
-    text-decoration: none;
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
-/* root - variavel de estilo */
 :root {
-    --bg--color: #000000;
-    --color-white: #FFFFFF;
-    --color-black: #000000;
-    --color-gray: #C9C9C9;
+    --main-color: #00eeff;
+    --text-color: #ffffff;
+    --bg-color-01: #1f242d;
+    --bg-color-02: #323946;
+    --color-00: #0000001a;
     --color-purple: #993399;
     --color-barra: #272030;
-    --font-large: 64px;
-
 
 }
+
+body {
+    background-color: var(--color-barra);
+    color: var(--text-color);
+}
+
+ 
+    
+
+
 
