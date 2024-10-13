@@ -20,6 +20,7 @@ header img {
 .nav a {
     font-size: 18px;
     color: var(--text-color) ;
+    font-style: italic;
     padding: 0 16px;
     transition: 0.4s;
 
@@ -81,15 +82,12 @@ span {
     width: 45%;
 }
 
-.certificacoes-box img {
-    width: 100%;
-}
 
 .services h2,
 .certifications h2,
 .contacts h2 {
     font-size: 25px;
-    margin-bottom: 35px;
+    margin-bottom: 38px;
     text-align: center;
     font-style: italic;
 }
@@ -134,16 +132,17 @@ span {
 .services-box p {
     margin: 7px;
     letter-spacing: 1px;
+    font-size: 19px;
     
 }
 
 .services-box i {
-    font-size: 25px;
+    font-size: 28px;
     color: var(--main-color);
 }
 
 .services-box h3 {
-    font-size: 18px;
+    font-size: 21px;
     font-style: italic;
 }
 .services-container .btn {
@@ -158,7 +157,6 @@ span {
     letter-spacing: 1px;
     transition: 0.3s ease;
 
-    /* margin-top: 17px; */
 }
 
 .btn {
@@ -169,7 +167,7 @@ span {
     font-weight: 600;
     letter-spacing: 1px;
     transition: 0.3s ease;
-    margin-top: 17px;
+    margin-top: 1px;
     
 }
 
@@ -178,6 +176,163 @@ span {
     background-color: inherit;
     color: var(--main-color);
     cursor: pointer;
+}
 
 
+.certifications-container {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.certifications-box {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 25px;
+    margin-bottom: 5px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--bg-color-01);
+    overflow: hidden;
+    
+}
+
+.certifications-box img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: 0.5s ease;
+}
+
+.certifications-box img:hover {
+    transform: scale(7px);
+
+}
+
+.certifications-box .certifications-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 16px;
+    transform: translateY(0);
+    transition: 0.5s ease;
+}
+
+.certifications-box:hover {
+    transform: translateY(5px);
+    background: linear-gradient(transparent, var(--main-color));
+}
+
+.certifications-layer:hover {
+    transform: translateY(5px);
+    background: linear-gradient(transparent, var(--main-color));
+}
+
+.certifications-layer h4 {
+    font-size: 10px;
+    
+}
+
+.certifications-layer p {
+    margin: 5px 0 7px;
+    font-size: 10px;
+    
+}
+
+.certifications-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+
+.certifications-layer a i {
+    font-size: 19px;
+    color: var(--bg-color-02);
+}
+
+form {
+    max-width: 55%;
+    margin: 5px auto;
+    text-align: center;
+    margin-bottom: 1px;
+
+}
+
+form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+form .input-box input, 
+form textarea {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: var(--text-color);
+    background-color: var(--bg-color-02);
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+form textarea {
+    resize: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px;
+    background-color: var(--bg-color-01);
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media img {
+    width: 34px;
+}
+
+.social-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: solid 2px var(--main-color);
+    border-radius: 50%;
+    font-size: 26px;
+    color: var(--main-color);
+    margin: 18px 16px 18px 0;
+    transition: 0.5s ease;
+}
+ 
+.social-media a:hover {
+    background-color: var(--main-color);
+    color: var(--bg-color-02);
+    box-shadow: 0 0 3px var(--main-color);
 }
