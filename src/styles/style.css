@@ -94,13 +94,15 @@ span {
 
 .services-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 20px;
-
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;    
 }
 
+
 .services-container .services-box {
+    width: 32%;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,8 +117,7 @@ span {
 
 .services-container .services-box:hover {
     border-color: var(--main-color);
-    transform: scale(1.09);
-
+    transform: scale(1.06);
     
 }
 
