@@ -85,6 +85,7 @@ span {
 
 .services h2,
 .certifications h2,
+.portfolio h2,
 .contacts h2 {
     font-size: 25px;
     margin-bottom: 38px;
@@ -180,93 +181,24 @@ span {
 }
 
 
-.certifications-container {
-    width: 100%;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
 
-}
-
-.certifications-box {
-    width: 30%;
+.portfolio-container {
     display: flex;
     flex-wrap: wrap;
+    height: 15%;
+    width: auto;
+    
     justify-content: space-between;
-    min-height: 25px;
-    margin-bottom: 5px;
-    
-    border-radius: 10px;
-    box-shadow: 0 0 5px var(--bg-color-01);
-    overflow: hidden;
     
 }
 
-.certifications-box img {
-    width: 100%;
+.portfolio-box {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     
-    transition: 0.5s ease;
-}
+    height: 15%;
 
-.certifications-box img:hover {
-    transform: scale(7px);
 
-}
-
-.certifications-box .certifications-layer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 16px;
-    transform: translateY(0);
-    transition: 0.5s ease;
-}
-
-.certifications-box:hover {
-    transform: translateY(5px);
-    background: linear-gradient(transparent, var(--main-color));
-}
-
-.certifications-layer:hover {
-    transform: translateY(5px);
-    background: linear-gradient(transparent, var(--main-color));
-}
-
-.certifications-layer h4 {
-    font-size: 10px;
-    
-}
-
-.certifications-layer p {
-    margin: 5px 0 7px;
-    font-size: 10px;
-    
-}
-
-.certifications-layer a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 36px;
-    height: 36px;
-    background: var(--text-color);
-    border-radius: 50%;
-}
-
-.certifications-layer a i {
-    font-size: 19px;
-    color: var(--bg-color-02);
 }
 
 form {
